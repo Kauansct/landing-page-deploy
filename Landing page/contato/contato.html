@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Anton+SC&display=swap" rel="stylesheet">
+
+    <title>Call Of Duty Worzone.code Contato</title>
+
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <div class="browser">
+        <ul>
+            <li><img class="browser-logo" src="../Images/pngaaa.com-665123.png" alt="COD"></li>
+            <li class="search-container">
+                <input class="search-bar" type="text">
+            </li>
+            <div class="links-page">
+                <li><a href="../index.html"><h4>Home</h4></a></li>
+                <li><a href="../sobre/sobre.html"><h4>Sobre</h4></a></li>            
+                <li><a href="../serviço/servico.html"><h4>Serviço</h4></a></li>
+                <li><a href="../opiniões/opinioes.html"><h4>opiniões</h4></a></li>
+                <li><a href="../contato/contato.html"><h4>Contato</h4></a></li>       
+            </div>
+            
+        </ul>
+    </div>
+
+    <!-- contatos -->
+    <section class="contact">
+        <div class="contact-form-area">
+            <form class="contact-form">
+                <h2>Fale com o desenvolvedor</h2>
+                <label for="name">Nome <span class="required-area">*</span></label>
+                <input id="name" type="text" required>
+
+                <label for="email">Email <span class="required-area">*</span></label>
+                <input id="email" type="email" required>
+
+                <label for="phone">Telefone <span class="required-area">*</span></label>
+                <input id="phone" type="number" required>
+
+                <label for="comment">Comentário</label>
+                <textarea id="comment" placeholder="Escreva aqui..."></textarea>
+
+                <p>Campo obrigatório <span class="required-area">*</span></p>
+
+                <div>
+                    <button id="submit-btn">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div id="warning"><p>Este site não é oficial. Ele foi desenvolvido por terceiros e não está afiliado à Activision ou à franquia Call of Duty. As informações e conteúdos aqui apresentados são de responsabilidade dos desenvolvedores deste site. Para informações oficiais, sempre consulte os canais oficiais da Activision.</p></div>
+
+        <ul>
+            <li><a id="first-footer-link" href="https://www.activision.com/br/pt/legal/terms-of-use" target="_blank">Termos de Serviço</a></li>
+            <li><a href="https://www.activision.com/br/pt/legal/privacy-policy" target="_blank">Política de Privacidade</a></li>
+            <li><a href="https://www.instagram.com/callofduty/" target="_blank">Instagram</a></li>
+            <li><a href="https://careers.activision.com/" target="_blank">Carreiras</a></li>            
+        </ul>
+        
+        <div class="footer-img-area">
+            <img src="../Images/activision-logo.png">
+            <img src="../Images/infinity-ward-logo.png">
+            <img src="../Images/shg-logo.png">
+            <img src="../Images/treyarch-logo.png">
+            <img src="../Images/raven-logo.png">
+            <img src="../Images/beenox-logo.png">
+            <img src="../Images/high-moon-logo.png">     
+        </div>
+                    
+    </div>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init({
+            publicKey: "-egfZ4g3xRpUQ_bwd",
+          });
+       })();
+    </script>
+
+    <script src="../jQuery.js"></script>
+
+    <script src="contato.js"></script>
+</body>
+</html>
